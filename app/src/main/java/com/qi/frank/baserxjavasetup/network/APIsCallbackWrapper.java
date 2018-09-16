@@ -15,7 +15,7 @@ import okhttp3.ResponseBody;
 import retrofit2.HttpException;
 import retrofit2.Response;
 
-public abstract class APIsCallbackWrapper<T extends Response> extends DisposableObserver<T> {
+public abstract class APIsCallbackWrapper<T> extends DisposableObserver<T> {
 
     private static final String TAG = "APIsCallbackWrapper";
 
